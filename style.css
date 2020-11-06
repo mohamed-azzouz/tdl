@@ -1,0 +1,136 @@
+html, body {
+	margin: 0 ;
+}
+
+#mainToDoList{
+	height: 670px;
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#alreadyConnected{
+	height: 720px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#formSignUpAndSignIn{
+	height: 720px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#fullFormSignUp{
+	width: 500px;
+  	clear: both;
+	text-align: center;
+}
+
+#fullFormSignUp input{
+	width: 100%;
+  	clear: both;
+}
+
+
+#fullFormSignIn{
+	width: 500px;
+  	clear: both;
+	text-align: center;
+}
+
+#fullFormSignIn input{
+	width: 100%;
+  	clear: both;
+}
+
+
+#openSignUp{
+	cursor: pointer;
+	text-align: center;
+	
+}
+
+#openSignIn{
+	cursor: pointer;
+	text-align: center;
+}
+
+#userTdl{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.return{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sucess{
+	background-color: green;
+	color: white;
+}
+
+.error{
+	background-color: red;
+	color: white;
+}
+
+#toDoList{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#nom:focus{
+	background-color: red;
+	color: white;
+}
+
+#allTaches{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+
+#taches{
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	justify-content: space-around;
+
+}
+
+#tacheEnCour{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	
+	background-color: red;
+}
+
+#tacheAccompli{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	background-color: orange;
+}
+
+
+.enCour{
+	background-color: darkblue;
+	color: white;
+}
+
+.accompli{
+
+}
+

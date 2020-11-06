@@ -1,0 +1,208 @@
+html, body {
+	margin: 0 ;
+}
+
+
+#indexToDoList{
+	background-image: url(../img/allMight1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#alreadyConnected{
+	height: 720px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#formSignUpAndSignIn{
+	height: 720px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+#fullFormSignUp{
+	width: 500px;
+  	clear: both;
+	text-align: center;
+}
+
+#fullFormSignUp input{
+	width: 100%;
+  	clear: both;
+}
+
+#formSignUp{
+	background-color: grey;
+	padding: 10px;
+}
+
+#formSignIn{
+	background-color: grey;
+	padding: 10px;
+}
+
+#fullFormSignIn{
+	width: 500px;
+  	clear: both;
+	text-align: center;
+}
+
+#fullFormSignIn input{
+	width: 100%;
+  	clear: both;
+}
+
+@media screen and (max-width: 992px){
+	#indexToDoList{
+		background-image: url(../img/allMight2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	#formSignUpAndSignIn{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#fullFormSignUp{
+		width: 300px;
+  		clear: both;
+		text-align: center;
+	}	
+
+	#fullFormSignUp input{
+		width: 50%;
+  		clear: both;
+	}
+
+
+	#fullFormSignIn{
+		width: 300px;
+  		clear: both;
+		text-align: center;
+	}
+
+	#fullFormSignIn input{
+		width: 50%;
+  		clear: both;
+	}
+}
+
+
+
+#openSignUp{
+	cursor: pointer;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#openSignIn{
+	cursor: pointer;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#mainToDoList{
+	height: 670px;
+	background-image: url(../img/midoriya1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#userTdl{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.return{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+#toDoList{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+#allTaches{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+#taches{
+	display: flex;
+	justify-content: space-around;
+	flex-grow: 0.5;
+	
+}
+
+
+
+#encour{
+	top: 0;
+	width: 100%;
+}
+
+
+#enCour th{
+	background-color: red;
+}
+
+#enCour tr td{
+	width: 30%;
+	border-style: solid;
+	background-color: darkblue;
+	color: white;
+	text-align: center;
+
+
+}
+
+#accompli{
+	top: 0;
+}
+
+#accompli th{
+	background-color: red;
+}
+
+#accompli tr td{
+	width: 40%;
+	background-color: darkblue;
+	color: white;
+	text-align: center;
+	border-style: solid;
+}
+
+@media screen and (max-width: 992px){
+	#taches{
+		display: flex;
+		flex-direction: column;	
+	}
+
+}
+
+.erreur{
+	background-color: red;
+	color: white;
+}
+
