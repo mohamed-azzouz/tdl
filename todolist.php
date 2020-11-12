@@ -9,7 +9,10 @@ $user = new user() ;
 
 $bdd-> connect() ;  
 
-
+if (isset($_SESSION)) 
+{
+	header('location:index.php');
+}
 
 ?>
 
